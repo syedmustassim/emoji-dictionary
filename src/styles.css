@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.msg {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  background-color: #21222a;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.header--img {
+  height: 45px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.heading {
+  color: #61dafb;
+}
+
+main {
+  padding: 2rem 2rem;
+  background-color: #282d35;
+  height: 100vh;
+  border-radius: 6px;
+}
+
+.input--bar {
+  height: 15vh;
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px solid #7dd3fc;
+}
+
+h2 {
+  font-weight: bold;
+  color: #67e8f9;
+}
+
+.emojis {
+  padding: 0.5rem;
+  cursor: pointer;
+}
